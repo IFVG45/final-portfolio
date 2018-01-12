@@ -155,6 +155,10 @@ nav .current {
   border-left: solid 2px
 }
 
+hr {
+  border: 1px solid #40c1d8;
+}
+
 /* button */
 
 .btn {
