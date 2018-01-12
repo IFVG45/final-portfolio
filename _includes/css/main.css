@@ -214,12 +214,6 @@ nav {
 
 /* general */
 
-html {
-  font-family: 'Saira Condensed', sans-serif;
-  color: #000;
-  background-color: #fff;
-}
-
 a {
   list-style-type: none;
   text-decoration: none;
