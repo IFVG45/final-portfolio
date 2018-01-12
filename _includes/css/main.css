@@ -154,11 +154,6 @@ nav .current {
   color: #40c1d8;
   border-left: solid 2px
 }
-
-hr {
-  border: 1px solid #40c1d8;
-}
-
 /* button */
 
 .btn {
@@ -183,23 +178,23 @@ hr {
 /* Text */
 
 .logo {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Lato', sans-serif;
   text-decoration: none;
   color: #40c1d8;
 }
 
 h3 {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 
 h5 {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 300;
 }
 
 p {
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   color: #96a2a3
 }
