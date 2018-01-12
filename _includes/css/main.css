@@ -311,55 +311,6 @@ footer p {
     color: #f1f1f1;
 }
 
-
-
-/* about */
-
-.divider {
-    width: 75%;
-    background-color: #d1d3d3;
-    height: 2px;
-    border-radius: 100em;
-    margin: 1.3rem 0rem 1.3rem 2.6rem;
-}
-
-.aboutList {
-    padding-left: 4.1em;
-
-}
-
-.aboutListItem1 {
-    font-weight: 300;
-}
-
-.aboutListItem2 {
-    font-weight: 500;
-}
-
-
-.aboutBannerTop {
-    text-decoration: none;
-    list-style: none;
-    height: 28em;
-    background-color: #333333;
-    background-image: url(../artwork/topBanner2.png);
-    background-size: 800%;
-    padding-top: 12em;
-}
-
-.aboutBannerTop p {
-   font-weight: 300;
-   color:#f1f1f1;
-}
-
-.aboutText {
-       padding-top: 2em;
-}
-
-.aboutText p {
-    padding-bottom: 2em;
-}
-
 .date {
     opacity: .5;
     text-transform: uppercase;
@@ -1167,7 +1118,7 @@ section.module.parallax h1 {
 
 section.module.parallax h3 {
   color: rgba(255, 255, 255, 0.8);
-  font-weight: 200;
+  font-weight: 400;
   font-style: italic;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -1422,7 +1373,7 @@ section.module.parallax-2 {
     text-align: center;
     color: #3a3a3c;
     padding: 1em;
-    font-weight: 300;
+    font-weight: 400;
   }
 
       @media only screen and (max-width : 38em) {
