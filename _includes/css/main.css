@@ -279,19 +279,6 @@ nav {
   text-decoration: none;
 }
 
-nav a {
-  display: inline-block;
-  padding-right: .8rem;
-
-  color: #96a2a3;
-  text-decoration: none;
-  letter-spacing: .3px;
-  text-align: center;
-
-  border-left: transparent solid 2px;
-  padding-left: 5px;
-}
-
 nav a:hover {
   color: #6e7677;
 
