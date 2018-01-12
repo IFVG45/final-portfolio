@@ -66,16 +66,6 @@ nav {
 
 }
 
-#menu-icon {
-  display: hidden;
-  width: 50px;
-  height: 50px;
-  opacity: 0.9;
-  background: url(../images/design/menu-icon.svg) no-repeat center;
-
-}
-
-
 /* general */
 
 a {
@@ -96,10 +86,6 @@ select:focus {
 
 .top {
   color: #40c1d8;
-}
-
-.video {
-  border: #40c1d8 solid 1px;
 }
 
 /* home page */
@@ -195,7 +181,8 @@ h5 {
 
 p {
   font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
+  line-height: normal;
   color: #96a2a3
 }
 
@@ -463,127 +450,6 @@ footer p {
      -webkit-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
 }
-
-/* Projects */
-
-
-.projectWrapperFull {
-    margin-top: .7em;
-    margin-bottom: 2em;
-}
-
-.projectWrapper {
-    margin-left: 1.13em;
-    margin-right: 1.13em;
-    margin-top: .7em;
-    margin-bottom: .7em;
-}
-
-.projectListItem1 {
-    font-weight: 300;
-    font-size: .8em;
-    opacity: .7;
-    padding-bottom: .05em;
-}
-
-
-
-.projectItem {
-    padding-top: 10em;
-    padding-bottom: 8em;
-}
-
-.projectText h6 {
-    font-size: 1em;
-    font-weight: 300;
-    padding-bottom: .4em;
-    opacity: .4;
-}
-
-
-
-.projectText1 h6 {
-     padding-top: 2em;
-    font-size: 1em;
-    font-weight: 300;
-    padding-bottom: .4em;
-    opacity: .4;
-}
-
-.projectItem1 {
-    background-image: url(../artwork/sign-bkg2.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: bottom, left;
-    background-color: #252c37;
-    color: #f1f1f1;
-}
-
-.projectItem1 h3 {
-    color: #f1f1f1;
-}
-
-.projectItem2 {
-    background-color: #dddddd;
-    background-image: url(../artwork/proj2Bkg4.svg);
-    background-size: 220%;
-    background-repeat: no-repeat;
-    background-position: bottom, center;
-}
-
-
-.projectItem3 {
-     background-image: url(../artwork/caff_bkg1.jpg);
-     background-position: center top;
-    background-size: 157%;
-
-}
-
-.projectItem3 h3,
-.projectItem3 p {
-   color: #f1f1f1;
-}
-
-
-.projectItem4 {
-    background-color: #3173b4;
-    background-image: url(../artwork/ahw_pattern4.svg);
-    background-size: 63%;
-    background-position: bottom left;
-    background-repeat: no-repeat;
-}
-
-.projectItem4 h3,
-.projectItem4 p {
-   color: #f1f1f1;
-}
-
-
-.projectItem5 {
-    background-color: #dddddd;
-    background-image: url(../artwork/layoutbkg-6.jpg);
-    background-position: center bottom;
-    background-size: 120%;
-    background-repeat: no-repeat;
-}
-
-.projectItem5 h3 {
-   color: ;
-}
-
-
-.projectItem6 {
-    background-color: #1bbaa9;
-    background-image: url(../artwork/overgrown_bkg1.svg);
-    background-repeat: no-repeat;
-    background-size: 900%;
-    color: #f1f1f1;
-}
-
-.projectItem6 h3 {
-    color: #f1f1f1;
-}
-
 
 
 
