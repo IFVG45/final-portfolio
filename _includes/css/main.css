@@ -190,44 +190,6 @@ hr {
   border: 1px solid #40c1d8;
 }
 
-/* form */
-
-legend {
-  color: #96a2a3;
-}
-
-form {
-  float: left;
-}
-
-label {
-  color: #40c1d8;
-}
-
-input,
-textarea {
-  border-color: #40c1d8;
-}
-
-textarea {
-  resize: none;
-}
-
-.error-message {
-  display: none;
-  color: #40c1d8;
-}
-
-.error-message-highlighted {
-  color: #000;
-}
-
-.is-validated > .error-message:first-child,
-.is-validated input:invalid + .error-message,
-.is-validated input:invalid + label + .error-message {
-  display: block;
-}
-
 /* footer */
 
 .site {
@@ -1009,10 +971,6 @@ header {
 
 #logo{
   display: none;
-  }
-
-  #menu-icon {
-    display:inline-block;
   }
 
   nav ul, nav:active ul {
