@@ -127,18 +127,14 @@ nav a:hover {
   color: #6e7677;
 
   transition: all 0.3s ease-in;
-
-  border-left: solid 2px
 }
 
 nav a:focus {
   color: #6e7677;
-  border-left: solid 2px
 }
 
 nav .current {
   color: #40c1d8;
-  border-left: solid 2px
 }
 /* button */
 
