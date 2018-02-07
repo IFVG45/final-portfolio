@@ -641,28 +641,6 @@ footer p {
     margin: 0;
     border: 10px solid white;
 }
-
-    .proj3 {
-    background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 100%;
-    background-position: left top,right top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-}
-  .proj5 {
-    background-image: url(../artwork/layoutbkg-2.jpg);
-    background-size: 90%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-}
-
- .proj6 {
-     background-image: 250%;
-}
-
-
     .aboutBannerTop{
         background-size: 300%;
     }
@@ -1304,7 +1282,7 @@ section.module.parallax-2 {
   font-weight: 700;
   letter-spacing: 3px;
   text-align: center;
-  color: #8d8e3b;
+  color: #89678b;
   text-transform: uppercase;
 }
 
@@ -1312,7 +1290,7 @@ section.module.parallax-2 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #8d8e3b;
+  background: #89678b;
   margin: 0 auto;
   margin-top: -1rem;
   margin-bottom: 2em;
