@@ -112,6 +112,7 @@ h6 {
 /* navigation */
 
 nav {
+  content: '/';
   color: inherit;
   text-transform: uppercase;
   text-decoration: none;
