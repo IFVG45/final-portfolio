@@ -26,7 +26,7 @@ img{
 
   /* NAVIGATION */
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 300;
   color: #000000;
   letter-spacing: 3px;
@@ -129,7 +129,6 @@ nav a:hover {
   border-width: 2px;
   display: none
   color: #6e7677;
-
   transition: all 0.3s ease-in;
 }
 
@@ -143,7 +142,7 @@ nav .current {
 /* button */
 
 .btn {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   background-color: #40c1d8;
   border: none;
   padding: 15px;
@@ -164,23 +163,23 @@ nav .current {
 /* Text */
 
 .logo {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   text-decoration: none;
   color: #40c1d8;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 400;
 }
 
 h5 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 300;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 400;
   line-height: normal;
   color: #000000
