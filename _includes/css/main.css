@@ -116,14 +116,18 @@ h6 {
 /* navigation */
 
 nav {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px
   list-style-type: none;
   text-align: left;
-  text-decoration: none;
 }
 
 nav a:hover {
+  bottom: -.4em;
+  border-width: 2px;
+  display: none
   color: #6e7677;
 
   transition: all 0.3s ease-in;
