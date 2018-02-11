@@ -1157,6 +1157,7 @@ section.module.parallax-2 {
   }
 
   .graphic img{
+    opacity: 1;
     top:0;
     display: block;
     position: relative;
