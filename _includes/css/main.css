@@ -1004,16 +1004,6 @@ header {
   padding-top: 8em;
 }
 
- .container img{
-  display: block;
-  opacity: 0.8;
-  width: 100%;
-  padding-top: 4em;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
  .arrow img{
   display: block;
   max-width: 2em;
@@ -1071,10 +1061,6 @@ section.module.parallax h3 {
 
 section.module.parallax-1 {
   background-image: url("../images/design/header-parallax.jpg");
-}
-
-section.module.parallax-2 {
-  background-image: url("../images/design/about-parallax.jpg");
 }
 
 .intro-border{
