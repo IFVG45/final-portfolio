@@ -23,7 +23,10 @@ html {
 img{
   width: 100%;
 }
-
+img{
+  opacity: 1;
+  color: #1c2d3f;
+}
 /* END - COMMON */
 
 /* HEADER */
@@ -1147,8 +1150,6 @@ section.module.parallax-1 {
   }
 
   .graphic img{
-    opacity: 1;
-    color: #1c2d3f;
     top:0;
     display: block;
     position: relative;
