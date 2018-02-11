@@ -1158,6 +1158,7 @@ section.module.parallax-2 {
 
   .graphic img{
     opacity: 1;
+    color: #1c2d3f;
     top:0;
     display: block;
     position: relative;
