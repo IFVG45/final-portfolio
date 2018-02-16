@@ -977,6 +977,8 @@ header {
   }
 
 
+
+
    .arrow img{
       max-width: 5em;
     }
@@ -992,6 +994,18 @@ header {
   margin-left: auto;
   margin-right: auto;
   padding-top: 8em;
+}
+
+ .arrow img{
+  display: block;
+  max-width: 2em;
+  margin: 2em;
+  padding-top: 3em;
+  opacity: 0.8;
+}
+
+.arrow img.hover {
+  opacity: 1;
 }
 
   /* PARALLAX */
