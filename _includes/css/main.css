@@ -1259,17 +1259,6 @@ section.module.parallax-1 {
   text-transform: uppercase;
 }
 
-.about-border{
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #89678b;
-  margin: 0 auto;
-  margin-top: -1rem;
-  margin-bottom: 2em;
-}
-
-
   .picture{
     display: block;
     max-width: 15%;
