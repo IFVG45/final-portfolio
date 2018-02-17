@@ -976,9 +976,6 @@ header {
 
   }
 
-
-
-
    .arrow img{
       max-width: 5em;
     }
@@ -1090,16 +1087,6 @@ section.module.parallax-1 {
   margin-top: 3.125em;
 }
 
-.work-border{
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #89678b;
-  margin: 0 auto;
-  margin-top: -1rem;
-  margin-bottom: 2em;
-}
-
   /*  WORK GRID */
   .work-grid{
     padding-left: 1em;
@@ -1117,6 +1104,14 @@ section.module.parallax-1 {
   .graphic{
     position: relative;
     overflow: hidden;
+    width: 100%;
+    float: left;
+    padding: .3%;
+    display:inline;
+    margin: 0 auto;
+    -webkkit-transition: all .9s ease-in-out;
+    -webkkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
   }
 
   .graphic figcaption{
@@ -1143,6 +1138,10 @@ section.module.parallax-1 {
 
   .graphic:hover img{
     top: -1em;
+    opacity: .5;
+  	-webkkit-transition: all .9s ease-in-out;
+  	-webkkit-transition: all .9s ease-in-out;
+  	-moz-transition: all .9s ease-in-out;
   }
 
   .graphic:hover figcaption{
