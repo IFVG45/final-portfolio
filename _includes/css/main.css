@@ -1459,16 +1459,6 @@ section.module.parallax-1 {
   text-transform: uppercase;
 }
 
-.footer-border{
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #FFF;
-  margin: 0 auto;
-  margin-top: -1em;
-
-}
-
 .footer p{
     display: block;
     text-align: center;
