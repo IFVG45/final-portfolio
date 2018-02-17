@@ -1106,9 +1106,6 @@ section.module.parallax-1 {
     overflow: hidden;
     width: 100%;
     float: left;
-    padding: .3%;
-    display:inline;
-    margin: 0 auto;
     -webkkit-transition: all .9s ease-in-out;
     -webkkit-transition: all .9s ease-in-out;
     -moz-transition: all .9s ease-in-out;
