@@ -1377,7 +1377,7 @@ section.module.parallax-2 {
   font-weight: 700;
   letter-spacing: 3px;
   text-align: center;
-  color: #3a3a3c;
+  color: #ffff;
   text-transform: uppercase;
   margin-top: 3.125em;
 }
@@ -1386,7 +1386,7 @@ section.module.parallax-2 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #8d8e3b;
+  background: #89678b;
   margin: 0 auto;
   margin-top: -1rem;
   margin-bottom: 2em;
