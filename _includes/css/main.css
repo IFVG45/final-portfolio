@@ -913,13 +913,6 @@ footer p {
 }
 
 
-a:hover#menu-icon {
-
-  opacity: 1;
-  border-radius: 4px 4px 0 0;
-
-}
-
 ul {
 
   list-style: none;
@@ -960,6 +953,7 @@ header {
     top: 76px;
     width: 50%;
     border-radius: 4px 0 4px 4px;
+    font-family: 'Montserrat', sans-serif;
 
   }
 
