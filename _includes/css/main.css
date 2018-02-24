@@ -1050,15 +1050,6 @@ section.module.parallax-1 {
   background-image: url("../images/design/header-parallax.jpg");
 }
 
-.intro-border{
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.8);
-  margin: 0 auto;
-  margin-top: 1em;
-  margin-bottom: 2em;
-}
 
 @media only screen and (max-width : 38em) {
   section.module.parallax-1 {
@@ -1086,15 +1077,6 @@ section.module.parallax-1 {
   margin-top: 3.125em;
 }
 
-.work-border{
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #89678b;
-  margin: 0 auto;
-  margin-top: -1rem;
-  margin-bottom: 2em;
-}
 
 =======
   /*  WORK GRID */
