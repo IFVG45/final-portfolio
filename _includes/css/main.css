@@ -362,10 +362,11 @@ footer p {
 
 
 .home {
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     left: calc(50% - 20px);
     top: 0px;
-    font-weight: 300;
+    font-weight: 400;
     display: block;
     text-decoration: none;
     color:#4a4f54;
@@ -381,10 +382,11 @@ footer p {
 
 
 .previous {
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     left: 20px;
     top: 0px;
-    font-weight: 300;
+    font-weight: 400;
     display: block;
     text-decoration: none;
     color:#4a4f54;
@@ -399,16 +401,17 @@ footer p {
 }
 
 .next {
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     right: 20px;
     top: 0px;
-    font-weight: 300;
+    font-weight: 400;
     display: block;
     text-decoration: none;
     color:#4a4f54;
     list-style-type: none;
     margin: 0;
-    font-size: 0.8889rem;
+    font-size: 12rem;
     line-height: 1.4625;
     padding-left: 15px;
     padding-right: 15px;
