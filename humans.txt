@@ -2,8 +2,8 @@
 
 # TEAM
 
-Designer and Developer: Iza Valle <hey@izavalle.work
-Site: https://ifvg45.github.io/Izavalle.work/
+Designer and Developer: Iza Valle <hey@izavalle.work>
+Site: izavalle.work
 Github: http://github.com/IFVG45
 Location: Ottawa, Canada
 

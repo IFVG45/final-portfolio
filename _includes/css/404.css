@@ -1,13 +1,3 @@
-/* 404 */
-/* CSS Document */
-/*
-h1: Lato Bold 700;
-h2: Lato Normal 400;
-p: Lato Light 300;
-#F5F5F5 / rgb(245,245,245) - Light Gray
-#333333 / rgb(51,51,51) - Dark Gray
-#ED4223 / rgb(237,66,35) - Accent Orange
-*/
 @charset "UTF-8";
 /* Responsive Setup
 
@@ -30,7 +20,7 @@ html {
 body{
   margin: 0;
   padding: 0;
-  background: url(../img/404-background.jpg) no-repeat center;
+  background: url(../images/design/404-background.jpg) no-repeat center;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,7 +58,7 @@ h2{
 
  /* NAVIGATION */
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
   letter-spacing: 3px;
@@ -82,7 +72,7 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  width: 25%;
 }
 
 header {
@@ -99,29 +89,13 @@ header {
   float: left;
   width: 80px;
   height: 80px;
-  background: url(../img/404-logo.svg) no-repeat center;
+  background: url(../images/design/404-logo.svg) no-repeat center;
   display: block;
 }
 
 nav {
   float: right;
   padding: 20px;
-}
-
-#menu-icon {
-  display: hidden;
-  width: 50px;
-  height: 50px;
-  opacity: 1;
-  background: url(../img/menu-icon.png) no-repeat center;
-
-}
-
-a:hover#menu-icon {
-
-  opacity: 1;
-  border-radius: 4px 4px 0 0;
-
 }
 
 ul {
@@ -148,11 +122,6 @@ nav li {
   header {
 
     position: absolute;
-
-  }
-
-  #menu-icon {
-    display: none;
 
   }
 

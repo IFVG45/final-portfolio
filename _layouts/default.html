@@ -1,8 +1,12 @@
+---
+meta: Iza Valle Graphic Design portfolio website 2018.
+---
+
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Iza Valle | Art and Design Portfolio</title>
+  <title>Iza Valle | Design Portfolio</title>
   <meta property="og:type" content="article">
   <meta property="og:title" content="Iza Valle, Art and Design Portfolio">
   <meta property="og:url" content="http://izavalle.work">
@@ -18,20 +22,71 @@
   <meta name="twitter:description" content="Iza Valle's art and design portfolio">
   <!-- The image should be 120x120 pixels in dimension -->
   <meta name="twitter:image" content="http://izavalle/to-this/image.jpg">
-  <meta name="description" content="Iza Valle's graphic design portfolio showcasing her UX/UI, illustration, and branding work.">
+  <meta name="description" content="Iza Valle's graphic design portfolio showcasing her Typography, illustration, and branding work.">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}/css/portfolio.css" rel="stylesheet">
   <link href="{{site.baseurl}}/favicon-4.ico" rel="shortcut icon"/>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
   <link href="css/site.css" rel="stylesheet">
 </head>
-<body id="top">
+<body>
 
+  <ul class="skip-links">
+      <li><a href="#main">Skip to main content</a></li>
+      <li><a href="#navigation">Skip to navigation</a></li>
+  </ul>
+
+      		<!-- HEADER -->
+      		<header>
+
+      			<a href="/" class="center" id="logo"></a>
+      			<nav>
+      				<ul>
+      					<li><a href="{{site.baseurl}}/#portfolio">PORTFOLIO</a></li>
+                <li><a href="{{site.baseurl}}/#about">HOLA</a></li>
+      					<li><a href="{{site.baseurl}}/#contact">CONTACT</a></li>
+         		  </ul>
+      			</nav>
+
+      		</header>
+
+      		<!-- END - HEADER -->
 
 
     {{content}}
+
+    			<!-- FOOTER -->
+    			<section class="footer" id="contact">
+    					 <h2 class="footer-title"><b>LET'S WORK TOGETHER</b></h2>
+               <p>Get in touch to collaborate on new projects.</p>
+    							<span class="footer-border"></span>
+    							<ul class="social-links">
+    							<li>
+    								<a class="mail" href="mailto: hey@izavalle.work">
+    											<img src="{{site.baseurl}}/images/design/email.svg" alt="Email Iza Email ">
+    											<img src="{{site.baseurl}}/images/design/email2.svg" alt="Email Iza Email hover">
+    								</a>
+    							</li>
+
+    							<li>
+    								<a class="behance" href="https://www.behance.net/vall01392e7d">
+    											<img src="{{site.baseurl}}/images/design/behance.svg" alt="Follow Iza on Behance">
+    											 <img src="{{site.baseurl}}/images/design/behance2.svg" alt="Follow Iza on Behance hover">
+    								</a>
+    							</li>
+
+    							<li>
+    								<a class="linkedin" href="https://www.linkedin.com/in/iza-valle-1b3770bb/">
+    											<img src="{{site.baseurl}}/images/design/facebook.svg" alt="Connect with Iza on Linked In">
+    											<img src="{{site.baseurl}}/images/design/facebook2.svg" alt="Connect with Iza on Linked In hover">
+    								</a>
+    							</li>
+    						</ul>
+    					<p class="copyright">© IZA VALLE 2018</p>
+    			</section>
+    			<!-- END - FOOTER -->
 
 
 	</body>
