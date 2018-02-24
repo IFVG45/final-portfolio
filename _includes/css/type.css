@@ -1,1337 +1,265 @@
-/*
-  Typografier || Code released under the UNLICENSE
-  https://typografier.web-dev.tools/#0,100,1.3,1.067,0;38,110,1.4,1.125,1;60,120,1.5,1.125,1;90,130,1.5,1.125,1
-*/
+charset "UTF-8";
+/* CSS Document */
 
-html {
-  font-size: 100%;
-  line-height: 1.3;
-}
-
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 1px;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -.5em;
-}
-
-sub {
-  bottom: -.25em;
-}
-
-pre,
-code,
-kbd,
-samp {
-  font-size: 100%;
-}
-
-abbr[title] {
-  border-bottom: none;
-  text-decoration: underline;
-  text-decoration: underline dotted;
-}
-
-b,
-strong {
-  font-weight: bold;
-}
-
-dfn,
-caption {
-  font-style: italic;
-}
-
-hr {
-  border: 0;
-  border-top: 2px solid #000;
-  height: 0;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  table-layout: fixed;
-}
-
-caption {
-  text-align: left;
-}
-
-th,
-td {
-  border-bottom: 1px solid #000;
-  text-align: left;
-  vertical-align: top;
-}
-
-thead th {
-  vertical-align: bottom;
-
-  border-bottom-width: 2px;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
 
-.text-center {
-  text-align: center;
+h1 {
+	/*Logo*/
 }
 
-.normal {
-  font-weight: normal;
-  font-style: normal;
-}
-
-.not-bold {
-  font-weight: normal;
-}
-
-.not-italic {
-  font-style: normal;
-}
-
-.bold {
-  font-weight: bold;
-}
 
-.italic {
-  font-style: italic;
-}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	text-transform:uppercase;
+	letter-spacing: .3rem;
 
-.text-upper {
-  text-transform: uppercase;
 }
 
-.text-lower {
-  text-transform: lowercase;
+h3 {
+	font-family: Georgia, Constantia, "Lucida Bright", "DejaVu Serif", serif;
+	text-align: center;
 }
 
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 52em;
-  width: 100%;
-}
 
-.max-length {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 36em;
-  width: 100%;
+.white-text{
+	color: #fff;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-ol,
-dl,
-dd,
-figure,
-blockquote,
-details,
-hr,
-fieldset,
-pre,
-table,
-caption {
-  margin: 0 0 1.3rem;
+.black-text{
+	color: #000;
 }
 
-.yotta {
-  font-size: 1.5745rem;
-  line-height: 2.275rem;
+.text-align{
+	text-align: center;
 }
 
-.zetta {
-  font-size: 1.4757rem;
-  line-height: 1.95rem;
-}
+/* LINKS */
 
-h1,
-.exa {
-  font-size: 1.383rem;
-  line-height: 1.95rem;
+.link {
+	text-decoration: none;
+	border-bottom: 2px solid #d8eff4;
+	color: rgba(122,122,122,1.00);
 }
 
-h2,
-.peta {
-  font-size: 1.2962rem;
-  line-height: 1.95rem;
+.link:hover {
+	border-bottom: 0px;
+	color: #d8eff4;
 }
 
-h3,
-.tera {
-  font-size: 1.2148rem;
-  line-height: 1.625rem;
-}
 
-h4,
-.giga {
-  font-size: 1.1385rem;
-  line-height: 1.625rem;
-}
+/* BANNER & INTRO */
 
-h5,
-.mega {
-  font-size: 1.067rem;
-  line-height: 1.625rem;
+.intro {
+	/*color: #34394c;*/
+	color: #fff;
+	text-align:center;
+	text-transform:uppercase;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 1em;
+	/*background-color: #d8eff4;*/
 }
 
-h6,
-.kilo,
-input,
-textarea {
-  font-size: 1rem;
-  line-height: 1.3rem;
+.intro-2 {
+	color: #fff;
+	text-align:center;
+	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
+	font-size: 12px;
+	font-weight: 400;
 }
 
-small,
-.milli {
-  font-size: .9372rem;
-  line-height: 1.3rem;
+.about-me {
+	font-family: 'Lato', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
 }
 
-.micro {
-  font-size: .8784rem;
-  line-height: 1.3rem;
-}
 
-ul {
-  padding-left: 1em;
-}
+/* EXTRAORDINARY */
 
-ol {
-  padding-left: 1.6em;
+.extraordinary {
+	color: #fff;
+	text-align:center;
+	font-size:20px;
+	font-family: Georgia, serif, Constantia, "Lucida Bright", "DejaVu Serif";
+	font-style: italic;
+	letter-spacing: 1px;
+	opacity: 0;
 }
 
-input,
-option,
-select {
-  height: calc(1.3rem + .1625rem + .1625rem);
-}
+/* PORTFOLIO */
 
-input[type="color"] {
-  width: calc(1.3rem + .1625rem + .1625rem);
+.portfolio-text-align{
+	text-align: left;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline-block;
-  height: auto;
-  width: auto;
-}
 
-.push {
-  margin-bottom: 1.3rem;
+.portfolio-description {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: .1em;
 }
 
-.push-none,
-.push-0 {
-  margin-bottom: 0;
-}
 
-.push-double,
-.push-2 {
-  margin-bottom: 2.6rem;
+.text-hover {
+	height: 100%;
 }
 
-.push-half,
-.push-1-2 {
-  margin-bottom: .65rem;
+.opener:hover .text-hover {
+	transition: opacity .25s ease-in-out;
 }
 
-.push-quarter,
-.push-1-4 {
-  margin-bottom: .325rem;
-}
 
-.push-eighth,
-.push-1-8 {
-  margin-bottom: .1625rem;
+.section,
+.portfolio-description:hover {
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
 }
 
-.push-right-eighth,
-.push-r-1-8 {
-  margin-right: .1625rem;
-}
+.description-title{
+	text-align: left;
+	line-height: .5rem;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: .1em;
+	border-bottom: 1px solid #ccc;
+	padding: 1.5rem 0;
+	display: block;
 
-.push-right-quarter,
-.push-r-1-4 {
-  margin-right: .325rem;
 }
 
-.push-right-half,
-.push-r-1-2 {
-  margin-right: .65rem;
+.initial-description{
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 1.5rem;
+	/*margin: -7rem 4rem;*/
+	font-size: 14px;
+	/*border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 1.5rem 0;*/
+	color: rgba(122,122,122,1.00);
+	display: block;
 }
 
-.push-right,
-.push-r {
-  margin-right: 1.3rem;
+.caption{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: rgba(122,122,122,1.00);
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: -.5rem;
+	text-align: right;
 }
 
-.pad-top,
-.pad-t {
-  padding-top: 1.3rem;
-}
+/* FOOTER */
+.copyright{
+	text-align:center;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	letter-spacing: .1rem;
 
-.pad-bottom,
-.pad-b {
-  padding-bottom: 1.3rem;
 }
 
-.pad-top-double,
-.pad-t-2 {
-  padding-top: 2.6rem;
+.email {
+	font-family: 'Montserrat', sans-serif;
+	color: #d8eff4;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: .09rem;
 }
 
-.pad-bottom-double,
-.pad-b-2 {
-  padding-bottom: 2.6rem;
+.email:hover{
+	color: #ffffff;
 }
 
-.pad-top-half,
-.pad-t-1-2 {
-  padding-top: .65rem;
-}
+.contact {
+	color: #fff;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	padding: 0 25rem;
 
-.pad-bottom-half,
-.pad-b-1-2 {
-  padding-bottom: .65rem;
-}
 
-.pad-top-quarter,
-.pad-t-1-4 {
-  padding-top: .325rem;
 }
 
-.pad-bottom-quarter,
-.pad-b-1-4 {
-  padding-bottom: .325rem;
-}
 
-.pad-top-eighth,
-.pad-t-1-8 {
-  padding-top: .1625rem;
+/*iPad*/
+@media only screen and (min-width: 48em){
+.text-align{
+	text-align: left;
 }
 
-.pad-bottom-eighth,
-.pad-b-1-8 {
-  padding-bottom: .1625rem;
+.intro-2 {
+	font-size: 16px;
 }
 
-.island {
-  padding: 1.3rem;
+h2 {
+	font-size: 20px;
 }
 
-.island-double,
-.island-2 {
-  padding: 2.6rem;
 }
 
-.island-half,
-.island-1-2 {
-  padding: .65rem;
-}
+/*Standard Desktop & Laptop*/
+@media only screen and (min-width: 64em){
 
-.island-quarter,
-.island-1-4,
-td,
-table th {
-  padding: .325rem;
-}
 
-.island-eighth,
-.island-1-8,
-input,
-textarea {
-  padding: .1625rem;
+.intro {
+	font-size: 36px;
 }
 
-.gutter {
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
+.about-me {
+	text-align: center;
+	font-size: 18px;
+	line-height: 1.8rem;
 }
 
-.gutter-double,
-.gutter-2 {
-  padding-left: 2.6rem;
-  padding-right: 2.6rem;
+h2 {
+	font-size:24px;
 }
 
-.gutter-half,
-.gutter-1-2 {
-  padding-left: .65rem;
-  padding-right: .65rem;
+.initial-description{
+	font-size: 15px;
 }
 
-.gutter-quarter,
-.gutter-1-4,
-caption {
-  padding-left: .325rem;
-  padding-right: .325rem;
+.extraordinary {
+	font-size: 30px;
 }
 
-.gutter-eighth,
-.gutter-1-8 {
-  padding-left: .1625rem;
-  padding-right: .1625rem;
+.email {
+	font-size: 20px;
 }
 
-select {
-  padding: 0 .1625rem;
 }
 
-fieldset {
-  padding: .325rem 0;
+/*Large Screens*/
+@media only screen and (min-width: 80em){
 
-  border: 0;
-  border-top: 2px solid #000;
+.initial-description{
+	font-size: 18px;
 }
 
-legend {
-  padding-right: .325rem;
 }
-
-@media only screen and (min-width: 38em) {
-
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.4rem;
-  }
-
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3.15rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 2.8rem;
-  }
-
-  h1,
-  .exa {
-    font-size: 1.802rem;
-    line-height: 2.45rem;
-  }
-
-  h2,
-  .peta {
-    font-size: 1.6018rem;
-    line-height: 2.1rem;
-  }
 
-  h3,
-  .tera {
-    font-size: 1.4238rem;
-    line-height: 2.1rem;
-  }
 
-  h4,
-  .giga {
-    font-size: 1.2656rem;
-    line-height: 1.75rem;
-  }
+/*Extra-Large Screens*/
+@media only screen and (min-width: 114em){
 
-  h5,
-  .mega {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  h6,
-  .kilo,
-  input,
-  textarea {
-    font-size: 1rem;
-    line-height: 1.4rem;
-  }
-
-  small,
-  .milli {
-    font-size: .8889rem;
-    line-height: 1.4rem;
-  }
-
-  .micro {
-    font-size: .7901rem;
-    line-height: 1.4rem;
-  }
-
-  ul,
-  ol {
-    padding-left: 0;
-  }
-
-  ul ul,
-  ol ul {
-    padding-left: 1em;
-  }
-
-  ol ol,
-  ul ol {
-    padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.35rem;
-    margin-right: -.35rem;
-    width: calc(100% + .35rem + .35rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.4rem + .175rem + .175rem);
-  }
-
-  input[type="color"] {
-    width: calc(1.4rem + .175rem + .175rem);
-  }
-
-  input[type="checkbox"],
-  input[type="radio"] {
-    display: inline-block;
-    height: auto;
-    width: auto;
-  }
-
-  .push {
-    margin-bottom: 1.4rem;
-  }
-
-  .push-none,
-  .push-0 {
-    margin-bottom: 0;
-  }
-
-  .push-double,
-  .push-2 {
-    margin-bottom: 2.8rem;
-  }
-
-  .push-half,
-  .push-1-2 {
-    margin-bottom: .7rem;
-  }
-
-  .push-quarter,
-  .push-1-4 {
-    margin-bottom: .35rem;
-  }
-
-  .push-eighth,
-  .push-1-8 {
-    margin-bottom: .175rem;
-  }
-
-  .push-right-eighth,
-  .push-r-1-8 {
-    margin-right: .175rem;
-  }
-
-  .push-right-quarter,
-  .push-r-1-4 {
-    margin-right: .35rem;
-  }
-
-  .push-right-half,
-  .push-r-1-2 {
-    margin-right: .7rem;
-  }
-
-  .push-right,
-  .push-r {
-    margin-right: 1.4rem;
-  }
-
-  .pad-top,
-  .pad-t {
-    padding-top: 1.4rem;
-  }
-
-  .pad-bottom,
-  .pad-b {
-    padding-bottom: 1.4rem;
-  }
-
-  .pad-top-double,
-  .pad-t-2 {
-    padding-top: 2.8rem;
-  }
-
-  .pad-bottom-double,
-  .pad-b-2 {
-    padding-bottom: 2.8rem;
-  }
-
-  .pad-top-half,
-  .pad-t-1-2 {
-    padding-top: .7rem;
-  }
-
-  .pad-bottom-half,
-  .pad-b-1-2 {
-    padding-bottom: .7rem;
-  }
-
-  .pad-top-quarter,
-  .pad-t-1-4 {
-    padding-top: .35rem;
-  }
-
-  .pad-bottom-quarter,
-  .pad-b-1-4 {
-    padding-bottom: .35rem;
-  }
-
-  .pad-top-eighth,
-  .pad-t-1-8 {
-    padding-top: .175rem;
-  }
-
-  .pad-bottom-eighth,
-  .pad-b-1-8 {
-    padding-bottom: .175rem;
-  }
-
-  .island {
-    padding: 1.4rem;
-  }
-
-  .island-double,
-  .island-2 {
-    padding: 2.8rem;
-  }
-
-  .island-half,
-  .island-1-2 {
-    padding: .7rem;
-  }
-
-  .island-quarter,
-  .island-1-4,
-  td,
-  table th {
-    padding: .35rem;
-  }
-
-  .island-eighth,
-  .island-1-8,
-  input,
-  textarea {
-    padding: .175rem;
-  }
-
-  .gutter {
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
-  }
-
-  .gutter-double,
-  .gutter-2 {
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
-  }
-
-  .gutter-half,
-  .gutter-1-2 {
-    padding-left: .7rem;
-    padding-right: .7rem;
-  }
-
-  .gutter-quarter,
-  .gutter-1-4,
-  caption {
-    padding-left: .35rem;
-    padding-right: .35rem;
-  }
-
-  .gutter-eighth,
-  .gutter-1-8 {
-    padding-left: .175rem;
-    padding-right: .175rem;
-  }
-
-  select {
-    padding: 0 .175rem;
-  }
-
-  fieldset {
-    padding: .35rem 0;
-
-    border: 0;
-    border-top: 2px solid #000;
-  }
-
-  legend {
-    padding-right: .35rem;
-  }
-
 }
-
-@media only screen and (min-width: 60em) {
-
-  html {
-    font-size: 120%;
-    line-height: 1.5;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.5rem;
-  }
-
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 3rem;
-  }
-
-  h1,
-  .exa {
-    font-size: 1.802rem;
-    line-height: 2.625rem;
-  }
-
-  h2,
-  .peta {
-    font-size: 1.6018rem;
-    line-height: 2.25rem;
-  }
-
-  h3,
-  .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
-  }
-
-  h4,
-  .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
-  }
-
-  h5,
-  .mega {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-  }
-
-  h6,
-  .kilo,
-  input,
-  textarea {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  small,
-  .milli {
-    font-size: .8889rem;
-    line-height: 1.5rem;
-  }
-
-  .micro {
-    font-size: .7901rem;
-    line-height: 1.5rem;
-  }
-
-  ul,
-  ol {
-    padding-left: 0;
-  }
-
-  ul ul,
-  ol ul {
-    padding-left: 1em;
-  }
-
-  ol ol,
-  ul ol {
-    padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  input[type="color"] {
-    width: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  input[type="checkbox"],
-  input[type="radio"] {
-    display: inline-block;
-    height: auto;
-    width: auto;
-  }
 
-  .push {
-    margin-bottom: 1.5rem;
-  }
 
-  .push-none,
-  .push-0 {
-    margin-bottom: 0;
-  }
-
-  .push-double,
-  .push-2 {
-    margin-bottom: 3rem;
-  }
-
-  .push-half,
-  .push-1-2 {
-    margin-bottom: .75rem;
-  }
-
-  .push-quarter,
-  .push-1-4 {
-    margin-bottom: .375rem;
-  }
-
-  .push-eighth,
-  .push-1-8 {
-    margin-bottom: .1875rem;
-  }
-
-  .push-right-eighth,
-  .push-r-1-8 {
-    margin-right: .1875rem;
-  }
-
-  .push-right-quarter,
-  .push-r-1-4 {
-    margin-right: .375rem;
-  }
-
-  .push-right-half,
-  .push-r-1-2 {
-    margin-right: .75rem;
-  }
-
-  .push-right,
-  .push-r {
-    margin-right: 1.5rem;
-  }
-
-  .pad-top,
-  .pad-t {
-    padding-top: 1.5rem;
-  }
-
-  .pad-bottom,
-  .pad-b {
-    padding-bottom: 1.5rem;
-  }
-
-  .pad-top-double,
-  .pad-t-2 {
-    padding-top: 3rem;
-  }
-
-  .pad-bottom-double,
-  .pad-b-2 {
-    padding-bottom: 3rem;
-  }
-
-  .pad-top-half,
-  .pad-t-1-2 {
-    padding-top: .75rem;
-  }
-
-  .pad-bottom-half,
-  .pad-b-1-2 {
-    padding-bottom: .75rem;
-  }
-
-  .pad-top-quarter,
-  .pad-t-1-4 {
-    padding-top: .375rem;
-  }
-
-  .pad-bottom-quarter,
-  .pad-b-1-4 {
-    padding-bottom: .375rem;
-  }
-
-  .pad-top-eighth,
-  .pad-t-1-8 {
-    padding-top: .1875rem;
-  }
-
-  .pad-bottom-eighth,
-  .pad-b-1-8 {
-    padding-bottom: .1875rem;
-  }
-
-  .island {
-    padding: 1.5rem;
-  }
-
-  .island-double,
-  .island-2 {
-    padding: 3rem;
-  }
-
-  .island-half,
-  .island-1-2 {
-    padding: .75rem;
-  }
-
-  .island-quarter,
-  .island-1-4,
-  td,
-  table th {
-    padding: .375rem;
-  }
-
-  .island-eighth,
-  .island-1-8,
-  input,
-  textarea {
-    padding: .1875rem;
-  }
-
-  .gutter {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .gutter-double,
-  .gutter-2 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .gutter-half,
-  .gutter-1-2 {
-    padding-left: .75rem;
-    padding-right: .75rem;
-  }
-
-  .gutter-quarter,
-  .gutter-1-4,
-  caption {
-    padding-left: .375rem;
-    padding-right: .375rem;
-  }
-
-  .gutter-eighth,
-  .gutter-1-8 {
-    padding-left: .1875rem;
-    padding-right: .1875rem;
-  }
-
-  select {
-    padding: 0 .1875rem;
-  }
-
-  fieldset {
-    padding: .375rem 0;
-
-    border: 0;
-    border-top: 2px solid #000;
-  }
-
-  legend {
-    padding-right: .375rem;
-  }
-
-}
-
-@media only screen and (min-width: 90em) {
-
-  html {
-    font-size: 130%;
-    line-height: 1.5;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  ul,
-  ol,
-  dl,
-  dd,
-  figure,
-  blockquote,
-  details,
-  hr,
-  fieldset,
-  pre,
-  table,
-  caption {
-    margin: 0 0 1.5rem;
-  }
-
-  .yotta {
-    font-size: 2.2807rem;
-    line-height: 3rem;
-  }
-
-  .zetta {
-    font-size: 2.0273rem;
-    line-height: 3rem;
-  }
-
-  h1,
-  .exa {
-    font-size: 1.802rem;
-    line-height: 2.625rem;
-  }
-
-  h2,
-  .peta {
-    font-size: 1.6018rem;
-    line-height: 2.25rem;
-  }
-
-  h3,
-  .tera {
-    font-size: 1.4238rem;
-    line-height: 1.875rem;
-  }
-
-  h4,
-  .giga {
-    font-size: 1.2656rem;
-    line-height: 1.875rem;
-  }
-
-  h5,
-  .mega {
-    font-size: 1.125rem;
-    line-height: 1.5rem;
-  }
-
-  h6,
-  .kilo,
-  input,
-  textarea {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  small,
-  .milli {
-    font-size: .8889rem;
-    line-height: 1.5rem;
-  }
-
-  .micro {
-    font-size: .7901rem;
-    line-height: 1.5rem;
-  }
-
-  ul,
-  ol {
-    padding-left: 0;
-  }
-
-  ul ul,
-  ol ul {
-    padding-left: 1em;
-  }
-
-  ol ol,
-  ul ol {
-    padding-left: 1.6em;
-  }
-
-  .hang-punc {
-    float: left;
-    margin-left: -1.4em;
-    text-align: right;
-    width: 1.3em;
-  }
-
-  table {
-    margin-left: -.375rem;
-    margin-right: -.375rem;
-    width: calc(100% + .375rem + .375rem);
-  }
-
-  input,
-  option,
-  select {
-    height: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  input[type="color"] {
-    width: calc(1.5rem + .1875rem + .1875rem);
-  }
-
-  input[type="checkbox"],
-  input[type="radio"] {
-    display: inline-block;
-    height: auto;
-    width: auto;
-  }
-
-  .push {
-    margin-bottom: 1.5rem;
-  }
-
-  .push-none,
-  .push-0 {
-    margin-bottom: 0;
-  }
-
-  .push-double,
-  .push-2 {
-    margin-bottom: 3rem;
-  }
-
-  .push-half,
-  .push-1-2 {
-    margin-bottom: .75rem;
-  }
-
-  .push-quarter,
-  .push-1-4 {
-    margin-bottom: .375rem;
-  }
-
-  .push-eighth,
-  .push-1-8 {
-    margin-bottom: .1875rem;
-  }
-
-  .push-right-eighth,
-  .push-r-1-8 {
-    margin-right: .1875rem;
-  }
-
-  .push-right-quarter,
-  .push-r-1-4 {
-    margin-right: .375rem;
-  }
-
-  .push-right-half,
-  .push-r-1-2 {
-    margin-right: .75rem;
-  }
-
-  .push-right,
-  .push-r {
-    margin-right: 1.5rem;
-  }
-
-  .pad-top,
-  .pad-t {
-    padding-top: 1.5rem;
-  }
-
-  .pad-bottom,
-  .pad-b {
-    padding-bottom: 1.5rem;
-  }
-
-  .pad-top-double,
-  .pad-t-2 {
-    padding-top: 3rem;
-  }
-
-  .pad-bottom-double,
-  .pad-b-2 {
-    padding-bottom: 3rem;
-  }
-
-  .pad-top-half,
-  .pad-t-1-2 {
-    padding-top: .75rem;
-  }
-
-  .pad-bottom-half,
-  .pad-b-1-2 {
-    padding-bottom: .75rem;
-  }
-
-  .pad-top-quarter,
-  .pad-t-1-4 {
-    padding-top: .375rem;
-  }
-
-  .pad-bottom-quarter,
-  .pad-b-1-4 {
-    padding-bottom: .375rem;
-  }
-
-  .pad-top-eighth,
-  .pad-t-1-8 {
-    padding-top: .1875rem;
-  }
-
-  .pad-bottom-eighth,
-  .pad-b-1-8 {
-    padding-bottom: .1875rem;
-  }
-
-  .island {
-    padding: 1.5rem;
-  }
-
-  .island-double,
-  .island-2 {
-    padding: 3rem;
-  }
-
-  .island-half,
-  .island-1-2 {
-    padding: .75rem;
-  }
-
-  .island-quarter,
-  .island-1-4,
-  td,
-  table th {
-    padding: .375rem;
-  }
-
-  .island-eighth,
-  .island-1-8,
-  input,
-  textarea {
-    padding: .1875rem;
-  }
-
-  .gutter {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  .gutter-double,
-  .gutter-2 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .gutter-half,
-  .gutter-1-2 {
-    padding-left: .75rem;
-    padding-right: .75rem;
-  }
-
-  .gutter-quarter,
-  .gutter-1-4,
-  caption {
-    padding-left: .375rem;
-    padding-right: .375rem;
-  }
-
-  .gutter-eighth,
-  .gutter-1-8 {
-    padding-left: .1875rem;
-    padding-right: .1875rem;
-  }
-
-  select {
-    padding: 0 .1875rem;
-  }
-
-  fieldset {
-    padding: .375rem 0;
-
-    border: 0;
-    border-top: 2px solid #000;
-  }
-
-  legend {
-    padding-right: .375rem;
-  }
+@media only screen and (min-width: 156.25em){
 
 }
