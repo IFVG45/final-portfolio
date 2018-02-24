@@ -1080,16 +1080,12 @@ section.module.parallax-1 {
   font-weight: 700;
   letter-spacing: 3px;
   text-align: center;
-<<<<<<< HEAD
   color: #ffff;
-=======
   color: #89678b;
->>>>>>> 0d9d58e23bcfa2ab7b7317bf377e866ca64a2d5f
   text-transform: uppercase;
   margin-top: 3.125em;
 }
 
-<<<<<<< HEAD
 .work-border{
   display: block;
   width: 80px;
@@ -1101,7 +1097,6 @@ section.module.parallax-1 {
 }
 
 =======
->>>>>>> 0d9d58e23bcfa2ab7b7317bf377e866ca64a2d5f
   /*  WORK GRID */
   .work-grid{
     padding-left: 1em;
@@ -1292,10 +1287,11 @@ section.module.parallax-1 {
   }
 
   .meet-Iza p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
     text-align: center;
     color: #3a3a3c;
-    padding: 1em;
-    font-weight: 400;
   }
 
       @media only screen and (max-width : 38em) {
