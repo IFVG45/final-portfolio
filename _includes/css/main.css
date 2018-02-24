@@ -1122,13 +1122,14 @@ section.module.parallax-1 {
   }
 
   .graphic figcaption{
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     position: absolute;
     bottom: -5em;
     background-color: #89678b;
     color: #261c2f;
     height: auto;
-    font-weight: 300;
+    font-weight: 400;
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
