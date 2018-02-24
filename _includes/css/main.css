@@ -152,30 +152,30 @@ nav .current {
 /* Text */
 
 .logo {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #40c1d8;
 }
 
 h3 {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
 h4 {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   display: center;
 }
 
 
 h5 {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   line-height: normal;
   color: #000000
