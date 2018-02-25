@@ -16,70 +16,33 @@ html {
   padding: 0;
 }
 
-img{
-  opacity: 1;
-  color: #1c2d3f;
-  width: 100%;
+body {
+	margin: 0;
+	padding: 0;
 }
 
-/* END - COMMON */
-
-/* HEADER */
-
-  /* NAVIGATION */
- a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color: #261c2f;
-  letter-spacing: 3px;
-  opacity: 0.8;
-  text-decoration: none;
-
+section {
+	padding: 1rem 0;
 }
 
-a:hover {
-  opacity: 1;
+img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 }
 
-
-/* general */
-
-a {
-  list-style-type: none;
-  text-decoration: none;
+.top-btn {
+	right: 2em;
+	bottom: 2em;
+	position: fixed;
+	opacity: 0;
+	width: 55px;
 }
 
-a:focus,
-[tabindex="0"]:focus,
-details:focus,
-summary:focus,
-input:focus,
-textarea:focus,
-button:focus,
-select:focus {
-  outline: 3px solid #c6e9f3;
+.top-btn[data-state="visible"] {
+	opacity: 1;
 }
 
-.top {
-  color: #40c1d8;
-}
-
-/* home page */
-
-.welcome {
-  background-color: #c6e9f3;
-}
-
-/* images */
-
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
-h6 {
-  font-weight: 100;
-}
 
 /* navigation */
 
