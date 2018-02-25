@@ -17,12 +17,11 @@ html {
 }
 
 img{
-  width: 100%;
-}
-img{
   opacity: 1;
   color: #1c2d3f;
+  width: 100%;
 }
+
 /* END - COMMON */
 
 /* HEADER */
@@ -53,13 +52,16 @@ header {
   z-index: 100;
 }
 
-#logo{
-  margin: 10px;
-  float: left;
-  width: 180px;
-  height: 60px;
-  background: url(../images/design/header-logo.svg) no-repeat center;
-  display: block;
+  .logo {
+  	width: 50px;
+  	height: 50px;
+  	float: left;
+  	display: inline-block;
+  	margin-top: -9.2rem;
+  	margin-left: 0.2rem;
+  	position: fixed;
+  	/*background-color: rgba(235,127,80,.7);*/
+  }
 
 }
 /* general */
