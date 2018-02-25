@@ -20,6 +20,7 @@ img{
   opacity: 1;
   color: #1c2d3f;
   width: 100%;
+  display: block;
 }
 
 /* END - COMMON */
@@ -71,11 +72,6 @@ select:focus {
 }
 
 /* images */
-
-.img-flex {
-  display: block;
-  width: 100%;
-}
 
 h6 {
   font-weight: 100;
