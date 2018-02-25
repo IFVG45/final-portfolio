@@ -53,6 +53,8 @@ header {
 }
 
   .logo {
+    background: #FFF;
+    opacity: 10 ;
   	width: 180px;
   	height: 60px;
   	float: left;
