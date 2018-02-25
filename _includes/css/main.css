@@ -41,18 +41,6 @@ a:hover {
   opacity: 1;
 }
 
-  .logo {
-    background: #FFF;
-    opacity: 10 ;
-  	width: 180px;
-  	height: 60px;
-  	float: left;
-  	display: inline-block;
-  	margin-top: -9.2rem;
-  	margin-left: 0.2rem;
-  	position: fixed;
-  	/*background-color: rgba(235,127,80,.7);*/
-  }
 
 /* general */
 
@@ -95,30 +83,65 @@ h6 {
 
 /* navigation */
 
-nav {
-  color: #ffff;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px
-  list-style-type: none;
-  text-align: left;
+.nav-bar{
+	background-color: red;
+	height: 50px;
+	position: fixed;
 }
 
-nav a:hover {
-  bottom: 0.4em;
-  border-width: 2px;
-  display: none
-  color: #3e2f42;
-  transition: all 0.3s ease-in;
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	display: inline-block;
+	margin-top: -9.2rem;
+	margin-left: 0.2rem;
+	position: fixed;
+	/*background-color: rgba(235,127,80,.7);*/
 }
 
-nav a:focus {
-  color: #3e2f42;
+.nav {
+	text-align:right;
+	position: fixed;
+	height: 50px;
+	font-size: 12px;
 }
 
-nav .current {
-  color: #40c1d8;
+.nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	text-align:right;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1.5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+.nav li {
+	text-align:center;
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.nav ul {
+	padding: 0;
+	margin: 0 auto;
+	xdisplay: inline-block;
+	/*width: 17em;*/
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	color: #ef4036;
 }
 /* button */
 
