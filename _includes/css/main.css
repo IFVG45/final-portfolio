@@ -847,45 +847,11 @@ footer p {
     padding-top: 2em;
 }
 
- .proj2 {
-    background-image: url(../artwork/proj2Bkg2.svg),url(../artwork/proj2Bkg3.svg);
-    background-size: 90%;
-    background-position: top right, top left;
-    background-repeat: no-repeat;
-     padding-top: 14em;
-}
-
-.proj3 {
-    background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 97%;
-    background-position: left top,right top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-    }
-
-
-.proj5 {
-    background-image: url(../artwork/layoutbkg-3.jpg), url(../artwork/layoutbkg-4.jpg);
-    background-size: 55%, 20%;
-    background-position: left top, right top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-}
-
 
 }
 
 /*x.5large*/@media only screen and (min-width: 75em){
 
-      .proj1Text,
-    .proj2Text,
-    .proj3Text,
-    .proj4Text,
-    .proj5Text,
-    .proj6Text{
-        font-size: 125%;
-    }
 
 
     .p-s-colour-pad{
@@ -899,16 +865,6 @@ footer p {
 }
 
 /*xlarge*/@media only screen and (min-width: 130em) {
-
-    .proj3 {
-    background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 45%;
-    background-position: left top,right top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-    }
-
 
     .aboutText {
     padding-top: 8em;
@@ -1178,43 +1134,6 @@ section.module.parallax-1 {
 }
   /*  END - WORK GRID */
 
-  /* PORTFOLIO DETAILS */
-  .portfolio-wrapper{
-    display: none;
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-bottom: 3.125em;
-  }
-
-  .portfolio-wrapper[data-state="open"]{
-    display:block;
-  }
-
-  .portfolio-description{
-    width: 75%;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    height: auto;
-  }
-
-  .portfolio-title{
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #3a3a3c;
-    text-transform: uppercase;
-  }
-
-   .portfolio-description p{
-    width: 100%;
-    color: #3a3a3c;
-    height: auto;
-    font-weight: 300;
-    line-height: 1.5em;
-  }
-
    .close{
     display: block;
     margin-right: auto;
@@ -1231,25 +1150,6 @@ section.module.parallax-1 {
   .close img.hover {
     opacity: 1;
   }
-
-  .vimeo-link p{
-    color: #ff9966;
-  }
-    /*  SLIDER */
-
-      .slider-wrap {
-        max-width: 500px;
-        max-height: 600px;
-        padding: 1em;
-        margin: 0 auto;
-      }
-
-      .flexslider{
-        display: block;
-        border: none;
-      }
-    /*  END - SLIDER */
-
     /* MEDIA QUERIES */
     @media only screen and (max-width : 38em) {
         .portfolio-wrapper{
@@ -1269,7 +1169,7 @@ section.module.parallax-1 {
 /* ABOUT */
 .about{
   width: 100%;
-  background-color:  #f4f1ef;
+  background-color:#f4f1ef;
   min-height: 500px;
   display: block;
 }
