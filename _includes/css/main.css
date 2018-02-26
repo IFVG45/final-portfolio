@@ -1182,6 +1182,11 @@ section.module.parallax-1 {
   text-transform: uppercase;
 }
 
+.about-section {
+	background-color: #89678b;
+	padding: 5rem 2rem;
+}
+
   .picture{
     display: block;
     max-width: 15%;
