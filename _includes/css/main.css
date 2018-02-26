@@ -106,10 +106,6 @@ header {
   display: none;
   }
 
-  #menu-icon {
-    display:inline-block;
-  }
-
   nav ul, nav:active ul {
 
     display: none;
@@ -137,10 +133,6 @@ header {
     display: block;
 
   }
-
-   .arrow img{
-      max-width: 5em;
-    }
 }
   /* END - NAVIGATION */
 
