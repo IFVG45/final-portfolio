@@ -103,6 +103,11 @@ nav a:focus {
 nav .current {
   color: #40c1d8;
 }
+
+.header{
+  background-color: #ffffff;
+
+}
 /* button */
 
 .btn {
