@@ -15,10 +15,7 @@ html {
   margin: 0;
   padding: 0;
 }
-
 img{
-  opacity: 1;
-  color: #1c2d3f;
   width: 100%;
 }
 
@@ -27,10 +24,10 @@ img{
 /* HEADER */
 
   /* NAVIGATION */
- a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color: #261c2f;
+a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #8d8e3b;
   letter-spacing: 3px;
   opacity: 0.8;
   text-decoration: none;
@@ -41,73 +38,123 @@ a:hover {
   opacity: 1;
 }
 
+img {
 
-/* general */
+  width: 100%;
 
-a {
-  list-style-type: none;
-  text-decoration: none;
 }
 
-a:focus,
-[tabindex="0"]:focus,
-details:focus,
-summary:focus,
-input:focus,
-textarea:focus,
-button:focus,
-select:focus {
-  outline: 3px solid #c6e9f3;
+header {
+  background: #FFF;
+  opacity: 0.9 ;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
-.top {
-  color: #40c1d8;
+#logo{
+  margin: 10px;
+  float: left;
+  width: 180px;
+  height: 60px;
+  background: url(../img/header-logo.svg) no-repeat center;
+  display: block;
+
 }
-
-/* home page */
-
-.welcome {
-  background-color: #c6e9f3;
-}
-
-/* images */
-
-h6 {
-  font-weight: 100;
-}
-
-/* navigation */
 
 nav {
-  color: #ffff;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px
-  list-style-type: none;
-  text-align: left;
-}
-
-nav a:hover {
-  bottom: 0.4em;
-  border-width: 2px;
-  display: none
-  color: #3e2f42;
-  transition: all 0.3s ease-in;
-}
-
-nav a:focus {
-  color: #3e2f42;
-}
-
-nav .current {
-  color: #40c1d8;
-}
-
-.header{
-  background-color: #ffffff;
+  float: right;
+  padding: 20px;
 
 }
+
+#menu-icon {
+  display: hidden;
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+  background: url(../img/menu-icon.svg) no-repeat center;
+
+}
+
+a:hover#menu-icon {
+
+  opacity: 1;
+  border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+nav li {
+
+  display: inline-block;
+  float: left;
+  padding: 10px
+
+}
+
+.current {
+
+  color: #222;
+
+}
+/*MEDIA QUERY*/
+@media only screen and (max-width : 38em) {
+
+header {
+  position: absolute;
+
+  }
+
+#logo{
+  display: none;
+  }
+
+  #menu-icon {
+    display:inline-block;
+  }
+
+  nav ul, nav:active ul {
+
+    display: none;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    padding: 20px;
+    right: 30px;
+    top: 76px;
+    width: 50%;
+    border-radius: 4px 0 4px 4px;
+
+  }
+
+  nav li {
+
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+
+  }
+
+  nav:hover ul {
+
+    display: block;
+
+  }
+
+   .arrow img{
+      max-width: 5em;
+    }
+}
+  /* END - NAVIGATION */
+  
 /* button */
 
 .btn {
