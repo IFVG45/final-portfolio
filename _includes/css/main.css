@@ -25,7 +25,8 @@ html {
 a {
 
   font-weight: 400;
-  color: #40c1d8;
+  font-size: 18px;
+  color: #89678b;
   letter-spacing: 1.5px;
   opacity: 0.8;
   text-decoration: none;
