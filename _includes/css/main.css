@@ -146,11 +146,11 @@ nav li {
   margin: 0 auto;
 }
 
-.work-info h1{
+.work-info{
 font-size: 2rem;
 line-height: 2.4rem;
 font-weight: 600;
-color: #00BCD4
+color: #89678b;
 }
 
 /*MEDIA QUERY*/
@@ -232,7 +232,7 @@ h3 {
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  display: center;
+  display: left;
 }
 
 
@@ -543,11 +543,6 @@ footer p {
 }
 
 /*small*/@media only screen and (min-width: 25em) {
-
- .arrowDown svg{
-    height: 25px;
-}
-
 
     .divider {
         width: 70%;
