@@ -299,7 +299,7 @@ footer p {
   nav {
     text-align: right;
   }
-  
+
   .hero img {
     max-width: 400px;
     margin-bottom: 0;
@@ -314,7 +314,6 @@ footer p {
   }
 
 }
-
 
 /* Intro */
 
@@ -424,7 +423,7 @@ footer p {
 
 
 #info-bar {
-  background-color: #7e858c;}
+  background-color: #89678b;}
   #info-bar a {
     color: white;
     font-size: 14px;
@@ -438,7 +437,7 @@ footer p {
   #info-bar a:focus,
   #info-bar a:active {
     background-color: #ffffff;
-    color: #7e858c;
+    color: #89678b;
   }
   #info-bar span.all-tutorials,
   #info-bar span.back-to-tutorial {
