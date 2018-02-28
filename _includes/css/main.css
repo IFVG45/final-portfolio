@@ -367,42 +367,22 @@ footer p {
 
 .previous {
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    left: 20px;
-    top: 0px;
-    font-weight: 400;
-    display: block;
-    text-decoration: none;
-    background-color: #89678b;
-    color:#ffffff;
-    list-style-type: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
     margin: 0;
-    font-size: 0.8889rem;
-    line-height: 1.4625;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    height: 0px;
+    padding: 10px;
+    font-weight: 700;
 }
 
 .next {
     font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    right: 20px;
-    top: 0px;
-    font-weight: 400;
-    display: block;
-    text-decoration: none;
-    background-color: #89678b;
-    color:#ffffff;
-    list-style-type: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    display: inline-block;
     margin: 0;
-    font-size: 12rem;
-    line-height: 1.4625;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    height: 0px;
+    padding: 10px;
+    font-weight: 700;
 }
 
 .next svg,
