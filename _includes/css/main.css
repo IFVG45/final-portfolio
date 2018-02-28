@@ -146,6 +146,12 @@ nav li {
   margin: 0 auto;
 }
 
+.work-info h1{
+font-size: 2rem;
+line-height: 2.4rem;
+font-weight: 600;
+color: #00BCD4
+}
 
 /*MEDIA QUERY*/
 @media only screen and (max-width : 38em) {
