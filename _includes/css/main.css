@@ -234,11 +234,6 @@ header {
   color: #40c1d8;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-}
-
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -249,13 +244,6 @@ h4 {
 h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  line-height: normal;
-  color: #000000
 }
 
 /* footer */
