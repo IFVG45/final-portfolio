@@ -365,50 +365,34 @@ footer p {
     transition: all 300ms ease-out;
 }
 
-.previous {
-    font-family: 'Montserrat', sans-serif;
+
+#info-bar {
+  background-color: #7e858c;}
+  #info-bar a {
+    color: white;
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
     margin: 0;
     padding: 10px;
     font-weight: 700;
-}
-
-.next {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-    display: inline-block;
-    margin: 0;
-    padding: 10px;
-    font-weight: 700;
-}
-
-.next svg,
-.previous svg {
-    height: 25px;
-}
-
-.home svg {
-    height: 30px;
-}
-
-.next svg:hover,
-.previous svg:hover,
-.home svg:hover {
-    fill:#7e858c;
-    opacity: 1;
-    -webkit-transition: all 300ms ease-out;
-    transition: all 300ms ease-out;
-}
-
-
-
-
-/* Social Media styles */
-
-
+  }
+  #info-bar a:hover,
+  #info-bar a:focus,
+  #info-bar a:active {
+    background-color: #ffffff;
+    color: #7e858c;
+  }
+  #info-bar span.all-tutorials,
+  #info-bar span.back-to-tutorial {
+    display: block;
+    width: 50%; }
+  #info-bar span.all-tutorials {
+    float: left;
+    text-align: left; }
+  #info-bar span.back-to-tutorial {
+    float: right;
+    text-align: right; }
 
 .icons {
     text-decoration: none;
