@@ -146,10 +146,16 @@ nav li {
   margin: 0 auto;
 }
 
-.work-info{
+.work-info h1{
 font-size: 1.5rem;
 line-height: 2.4rem;
 font-weight: 600;
+color: #89678b;
+}
+
+.work-info h3{
+font-size: 1.1rem;
+margin-bottom: .5rem;
 color: #89678b;
 }
 
