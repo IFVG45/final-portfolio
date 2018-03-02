@@ -433,9 +433,9 @@ footer p {
 
 
 #info-bar {
-  background-color: #89678b;}
+  background-color: #ffffff;}
   #info-bar a {
-    color: white;
+    color: #89678b;
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
