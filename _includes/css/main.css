@@ -43,17 +43,6 @@ img{
 	margin: 0 auto;
 }
 
-
-#logo{
-  margin: 10px;
-  float: left;
-  width: 150px;
-  height:60px;
-  background: url(../images/design/header-logo.svg) no-repeat center;
-  display: block;
-
-}
-
 section {
 	padding: 1rem 0;
 }
