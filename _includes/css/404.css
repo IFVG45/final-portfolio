@@ -72,42 +72,6 @@ a:hover {
 }
 
 
-header {
-  width: 100%;
-  height: 50px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-
-#logo{
-  margin: 20px;
-  float: left;
-  width: 150px;
-  height: 60px;
-  background: url(../images/design/header-logo.svg) no-repeat center;
-  display: block;
-}
-
-nav {
-  float: right;
-  padding: 40px;
-}
-
-ul {
-
-  list-style: none;
-
-}
-nav li {
-  color: #FFFFFF;
-  display: inline-block;
-  float: left;
-  padding: 10px
-
-}
-
 .current {
   color: #FFFFFF;
 }
@@ -116,38 +80,6 @@ nav li {
 /*MEDIA QUERY*/
 @media only screen and (max-width : 38em) {
 
-  header {
-
-    position: absolute;
-
-  }
-
-  nav ul, nav:active ul {
-    display: none;
-    position: absolute;
-    padding: 20px;
-    right: 30px;
-    top: 76px;
-    width: 50%;
-    border-radius: 4px 0 4px 4px;
-
-  }
-
-  nav li {
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-    margin: 0;
-    display: none;
-  }
-
-  nav:hover ul {
-
-    display: none;
-
-  }
-}
-  /* END - NAVIGATION */
 
 /* General button style (reset) */
 .btn {
