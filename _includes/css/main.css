@@ -435,7 +435,7 @@ footer p {
 #info-bar {
   background-color: #ffffff;}
   #info-bar a {
-    color: #89678b;
+    color: #1C0319;
     font-size: 14px;
     text-transform: uppercase;
     display: inline-block;
@@ -447,7 +447,7 @@ footer p {
   #info-bar a:focus,
   #info-bar a:active {
     background-color: #ffffff;
-    color: #89678b;
+    color: #1C0319;
   }
   #info-bar span.all-tutorials,
   #info-bar span.back-to-tutorial {
