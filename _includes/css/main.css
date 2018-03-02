@@ -199,6 +199,11 @@ header {
     header.smaller nav {
       height: 35px; }
 
+
+#logo{
+  display: none;
+  }
+
 }
   /* END - NAVIGATION */
 
@@ -225,6 +230,11 @@ header {
 
 /* Text */
 
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #40c1d8;
+}
 
 h4 {
   font-family: 'Montserrat', sans-serif;
@@ -292,6 +302,9 @@ footer p {
     opacity: 1;
   }
 
+  nav {
+    text-align: right;
+  }
 
   .hero img {
     max-width: 400px;
@@ -538,6 +551,11 @@ footer p {
 
 .aboutBannerTop {
      background-size: 500%;
+}
+
+
+.wordmarkTop svg{
+    height: 2em;
 }
 
 .bannerTop {
@@ -857,6 +875,19 @@ footer p {
 }
 
 
+ul {
+
+  list-style: none;
+
+}
+nav li {
+
+  display: inline-block;
+  float: left;
+  padding: 10px
+
+}
+
 .current {
 
   color: #222;
@@ -865,6 +896,14 @@ footer p {
 /*MEDIA QUERY*/
 @media only screen and (max-width : 38em) {
 
+header {
+  position: absolute;
+
+  }
+
+#logo{
+  display: none;
+  }
 
   nav ul, nav:active ul {
 
