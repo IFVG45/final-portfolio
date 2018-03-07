@@ -483,17 +483,13 @@ footer p {
     background-color:rgba(219, 217, 214, .125);
 }
 
-/*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
+@media only screen and (min-width: 22em) {
 
-.proj1 {
-    background-size: 150%;
-}
 
 .email {
     font-size: 1em;
 
 }
-
 
 
 .social {
@@ -662,62 +658,6 @@ footer p {
     padding-top: 14em;
  }
 
-
-.proj2 {
-  background-image: url(../artwork/proj2Bkg1.svg);
-    background-size: 110%;
-    background-position: top center;
-    background-repeat: no-repeat;
-}
-
-.proj3 {
-    background-color: #3b3738;
-    background-image: url(../artwork/caff_bkg2.jpg);
-    background-size: 95%;
-    background-position: left top,right top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-}
-
-
-.proj5 {
-   background-image: url(../artwork/layoutbkg-2.jpg);
-    background-size: 90%;
-    background-position: center top;
-    background-repeat: no-repeat;
-    padding-top: 14em;
-}
-
-.proj6 {
-    background-size: 200%;
-    }
-
-
- .projectItem {
-    padding-top: 10em;
-    padding-bottom: 8em;
-}
-
-
-
-
-.projectItem3 {
-    background-size: 120%;
-    background-position: center left;
-}
-
- .projectItem4 {
-    background-size: 45%;
-}
-
-
-
-.projectText {
-    padding-top: 2em;
-    padding-bottom: 4em;
-    text-align: left;
-    max-width: 1000px;
-}
 
 
 .aboutBannerTop{
