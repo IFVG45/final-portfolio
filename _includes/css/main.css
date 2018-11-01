@@ -16,12 +16,6 @@ html {
   padding: 0;
 }
 
-
-/* END - COMMON */
-
-/* HEADER */
-
-  /* NAVIGATION */
 a {
 
   font-weight: 400;
@@ -43,17 +37,6 @@ img{
 	margin: 0 auto;
 }
 
-
-header {
-  background: #FFF;
-  opacity: 0.9 ;
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
 
 #logo{
     width:100%;
