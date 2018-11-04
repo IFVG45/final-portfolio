@@ -127,7 +127,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -135,7 +135,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #CEC0CE;;
+    background-color: #ffff;;
 }
 /* end nav bar */
 
