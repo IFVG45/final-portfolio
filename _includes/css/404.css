@@ -57,20 +57,6 @@ h2{
 }
 
  /* NAVIGATION */
-a {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  color: #FFFFFF;
-  letter-spacing: 3px;
-  opacity: 1;
-  text-decoration: none;
-
-}
-
-a:hover {
-  opacity: 1;
-}
-
 
 header {
   width: 100%;
