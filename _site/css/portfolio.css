@@ -27,16 +27,6 @@ html {
   text-size-adjust: 100%;
 }
 
-body{
-  margin: 0;
-  padding: 0;
-  background: url(../images/design/404-background.jpg) no-repeat center;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 img{
   display: block;
   width: 20%;
@@ -68,7 +58,7 @@ h2{
 
  /* NAVIGATION */
 a {
-  font-family: 'Lato', sans-serif;
+font-family: 'Fjalla One', sans-serif;
   font-weight: 300;
   color: #FFFFFF;
   letter-spacing: 3px;
@@ -435,7 +425,7 @@ img{
 
   /* NAVIGATION */
 a {
-  font-family: 'Lato', sans-serif;
+font-family: 'Fjalla One', sans-serif;
   font-weight: 300;
   color: #000000;
   letter-spacing: 3px;
@@ -552,7 +542,7 @@ nav .current {
 /* button */
 
 .btn {
-  font-family: 'Lato', sans-serif;
+font-family: 'Fjalla One', sans-serif;
   background-color: #40c1d8;
   border: none;
   padding: 15px;
@@ -3431,4 +3421,3 @@ legend {
   }
 
 }
-
