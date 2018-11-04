@@ -888,15 +888,6 @@ section.module.parallax h3 {
   padding-bottom: 5em;
 }
 
-section.module.parallax-1 {
-  background-image: url("../images/design/header-bg.jpg");
-}
-
-
-@media only screen and (max-width : 38em) {
-  section.module.parallax-1 {
-  background-image: url("../images/design/mobile-header.jpg");
-  }
 }
   /* END - PARALLAX */
 
