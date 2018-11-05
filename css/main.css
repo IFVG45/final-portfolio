@@ -20,7 +20,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 li a:hover {
@@ -70,14 +70,14 @@ h3{
 }
 
 .work{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-align: center;
   padding-bottom: 2em;
 }
 
 .contact{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15pt;
   text-align: center;
   padding-bottom: 1em;
@@ -157,7 +157,7 @@ footer{
 }
 
 .footer-text{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10pt;
   color: white;
   text-align: center;
