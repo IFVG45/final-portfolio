@@ -1,0 +1,273 @@
+
+/* nav bar */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+li a:hover {
+    background-color: #CEC0CE;;
+}
+/* end nav bar */
+
+
+.logo{
+  width:100%;
+  padding-bottom: 5em;
+  padding-top: 5em;
+
+}
+
+h1{
+  text-align: center;
+  background-color: white ;
+  width:100%;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  color: black;
+  width: 100%;
+  display: inline-block;
+
+}
+
+
+h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 15pt;
+}
+.me-img-1{
+  width: 30%;
+}
+
+
+.about{
+  padding-bottom: 20em;
+  text-align: center;
+
+}
+
+.work{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.contact{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  padding-bottom: 1em;
+  background-color: #fff;
+}
+
+.box-img{
+  width: 20%;
+}
+
+.media-icons{
+  text-align: center;
+  padding-top: 4em;
+}
+
+.topbutton{
+  text-align: right;
+  padding-right: 1em;
+
+}
+
+.behance{
+  padding-right: 2em;
+}
+
+.mail{
+  padding-left: 2em;
+}
+
+.info{
+  font-size: 15pt;
+}
+
+.digits{
+  color: #FF1DF4;
+  line-height: 80px;
+  font-size: 13pt;
+}
+.email{
+  color: black;
+  font-size: 13pt;
+}
+
+.services{
+  font-family: 'Lato', sans-serif;
+  font-size: 30pt;
+  color: #000;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.by-line{
+    padding-bottom: 15em;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    color: #FF1DF4;
+    text-align: center;
+}
+p{
+  font-family: 'Lato', sans-serif;
+  font-size: 15pt;
+  color: #000;
+  margin-left: 8em;
+  margin-right: 8em;
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+footer{
+  background-color: #000;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.footer-text{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 10pt;
+  color: white;
+  text-align: center;
+}
+
+
+
+/* media queries */
+@media only screen and (min-width: 15em) {
+
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15pt;
+    color: #000;
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+  }
+  .services{
+    font-size: 10pt;
+  }
+
+  .about{
+    padding-bottom: 6em;
+
+  }
+
+
+  .logo{
+    width:50%;
+
+  }
+
+  .mybio{
+    text-align: center;
+    font-size: 10pt;
+  }
+
+  figcaption{
+    font-size: 9pt;
+    padding-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  body{
+    margin: 0px;
+  }
+
+  .box-img{
+    width: 40%;
+
+}
+
+@media only screen and (min-width: 38em) {
+  .me-img-1{
+    width: 30%;
+  }
+  .services{
+    font-size: 15pt;
+  }
+.mybio{
+    text-align: center;
+    font-size: 12pt;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .services{
+    font-size: 25pt;
+  }
+
+  .about{
+    padding-bottom: 10em;
+
+  }
+
+  .mybio{
+    text-align: center;
+    font-size: 15pt;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+  .troy-bio{
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    text-justify: inter-word;
+    margin-left: 20em;
+    margin-right: 20em;
+  }
+
+  .logo{
+    width:50%;
+
+  }
+  .box-img{
+    width: 30%;
+  }
+  p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18pt;
+    color: #000;
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+  }
+}

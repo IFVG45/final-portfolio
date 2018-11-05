@@ -1,0 +1,228 @@
+
+/* nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+li a:hover {
+    background-color: #D8E800;
+}
+/* end nav bar */
+
+.moi-img{
+  width:40%;
+}
+.logo{
+  width:100%;
+  padding-top: 5em;
+}
+
+h1{
+  text-align: center;
+  background-color: white ;
+  width:100%;
+}
+
+h2{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 25pt;
+  text-align: center;
+  color: black;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 3em;
+}
+
+h3{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 15pt;
+}
+
+p{
+  text-align: left;
+  margin-left: 10em;
+  margin-right: 10em;
+  line-height: 1.5;
+}
+
+.about{
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  padding-bottom: 8em;
+  background-color: #E0E0E0;
+}
+
+.work{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 8em;
+}
+
+.contact{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  padding-bottom: 8em;
+  background-color: #E0E0E0;
+}
+
+.opacity-images{
+  padding-bottom: 8em;
+}
+
+.media-icons{
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+.behance{
+  padding-right: 2em;
+}
+
+
+.mail{
+  padding-left: 2em;
+}
+
+.info{
+  font-size: 15pt;
+}
+
+.digits{
+  color: #FF1DF4;
+}
+.email{
+  color: black;
+}
+
+.quote{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20pt;
+  color: #FF1DF4;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.by-line{
+    padding-bottom: 15em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14pt;
+}
+
+body{
+  margin: 0px;
+}
+
+footer{
+  background-color: #FF1DF4;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.footer-text{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 10pt;
+  color: white;
+}
+
+/* media queries */
+@media only screen and (min-width: 10em){
+
+  nav{
+    width: 100%;
+  }
+
+  body{
+    margin: 0px;
+  }
+
+  p{
+    text-align: center;
+    margin-left: 0em;
+    margin-right: 0em;
+    line-height: 1.5;
+  }
+  .cuba-img{
+    width: 60%;
+  }
+  .moon-img{
+    width:60%;
+  }
+  .daniella-img{
+    width:60%;
+  }
+  .foggynight-img{
+    width:60%;
+  }
+  .hunter-img{
+    width: 50%;
+  }
+  .drake-img{
+    width: 65%;
+  }
+  .squad-img{
+    width: 65%;
+  }
+  .shag-img{
+    width: 65%;
+  }
+  .chadd-img{
+    width: 65%;
+  }
+  .unspoken-img{
+    width: 65%;
+  }
+  .birds-img{
+    width: 65%;
+  }
+  .troy-img{
+    width: 80%;
+    padding-bottom: 3em;
+  }
+  .troy-logo{
+    width: 50%;
+    padding-bottom: 3em;
+
+  }
+}
+
+
+@media only screen and (min-width: 35em){
+
+  p{
+    text-align: center;
+    font-size: 14pt;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media only screen and (min-width: 55em){
+
+  p{
+    text-align: center;
+    font-size: 18pt;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+}
