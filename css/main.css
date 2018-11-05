@@ -89,8 +89,6 @@ h3{
 }
 
 .media-icons{
-  text-align: center;
-  padding-top: 0.5em;
   width: 25%;
 }
 
@@ -98,15 +96,6 @@ h3{
   text-align: right;
   padding-right: 1em;
 
-}
-
-.behance{
-  padding-right: 2em;
-}
-
-.mail{
-  padding-left: 0.5em;
-  width: 20%;
 }
 
 .info{
