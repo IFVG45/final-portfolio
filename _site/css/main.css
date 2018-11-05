@@ -116,7 +116,7 @@ p{
 }
 
 .quote{
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20pt;
   color: #FF1DF4;
   padding-top: 3em;
@@ -125,7 +125,7 @@ p{
 
 .by-line{
     padding-bottom: 15em;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14pt;
 }
 
@@ -140,7 +140,7 @@ footer{
 }
 
 .footer-text{
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10pt;
   color: white;
 }
