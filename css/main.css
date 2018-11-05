@@ -44,7 +44,7 @@ h1{
 }
 
 h2{
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 25pt;
   text-align: center;
   color: black;
@@ -55,7 +55,7 @@ h2{
 
 
 h3{
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 15pt;
 }
 .me-img-1{
@@ -121,7 +121,7 @@ h3{
 }
 
 .services{
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 30pt;
   color: #000;
   padding-top: 1em;
@@ -131,13 +131,13 @@ h3{
 
 .by-line{
     padding-bottom: 15em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 14pt;
     color: #FF1DF4;
     text-align: center;
 }
 p{
-  font-family: 'Lato', sans-serif;
+  font-family: 'PT Serif', serif;
   font-size: 15pt;
   color: #000;
   margin-left: 8em;
@@ -168,7 +168,7 @@ footer{
 @media only screen and (min-width: 15em) {
 
   p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 15pt;
     color: #000;
     margin-left: 2em;
@@ -247,7 +247,7 @@ footer{
     margin-right: 10em;
   }
   .troy-bio{
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 12pt;
     text-justify: inter-word;
     margin-left: 20em;
@@ -262,7 +262,7 @@ footer{
     width: 30%;
   }
   p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 18pt;
     color: #000;
     margin-left: 10em;
