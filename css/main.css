@@ -87,7 +87,8 @@ h3{
 }
 
 .media-icons{
-  width: 25%;
+  text-align: center;
+  padding-top: 4em;
 }
 
 .topbutton{
