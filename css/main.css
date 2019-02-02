@@ -58,8 +58,25 @@ h3{
   font-family: 'PT Serif', serif;
   font-size: 15pt;
 }
+
+.section{
+	position: relative;
+	display: block;
+}
+
+.jump {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #000;
+	top: -5em;
+	opacity: 0;
+	}
+  
 .me-img-1{
-  width: 30%;
+  width: 85%;
+  height: 85%;
+  padding-left: 3em;
 }
 
 
@@ -175,7 +192,7 @@ footer{
   }
 
   .about{
-    padding-bottom: 6em;
+    padding-top: 20em;
 
   }
 
