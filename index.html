@@ -1,97 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-<meta name= "viewport" content="width=device-width,initial-scale=1">
-<title>IFVG</title>
-<link href="images/favicon.png" rel="shortcut icon">
-<link href="css/main.css" rel="stylesheet">
-<link href="css/grid.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.description}}">
+  <html prefix="og: http://ogp.me/ns#">
+  <meta property="og:title" content="Shannon Hawn Portfolio Site" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://shannonhawn.github.io/shannon-hawn-sauve" />
+  <meta property="og:image" content="https://shannonhawn.github.io/shannon-hawn-sauve/img/shannon.svg" />
+  <meta property="og:description" content="My portfolio website. Shannon Hawn"/>
 
-<meta property="og:image" content="images/wordmark-logo.svg" />
-<meta property="og:description" content="Iza Valle, Graphic Designer, Portfolio.">
-<meta property="og:url" content="http://izavalle.work">
+  <meta property="twitter:summary" content="Shannon Hawn Portfolio" />
+
+  <link href="css/site.css" rel="stylesheet">
+  <link href="img/favicon.ico" rel="shortcut icon">
+  <meta name="handheldfriendly" content="true">
+  <meta name="mobileoptimized" content="240">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 </head>
+<body>
 
-<main>
-<nav>
-<ul>
-  <li><a href="#about">About</a></li>
-  <li><a href="#work">Work</a></li>
-  <li><a href="#contact">Hola!</a></li>
-</ul>
-</nav>
-
-<a href="#" class="back-to-top"></a>
 
 <header>
-<h1>
-  <img class="logo" src="images/design/logo2.jpg" alt="Logo">
-</h1>
-
+  <div class="nav">
+    <a id="nav"></a>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+  </div>
 </header>
 
-<br>
+<main>
+  <div class="image">
+    <img class="me" src="images/design/logo2.jpg" alt="illustration of designer">
+      <a id="me"></a>
+      <h3>Iza Valle</h3>
+  </div>
 
-<div class="container about">
-  <section>
-  <div class="jump" id="about"></div>
-    <div class="grid grid-middle">
+  <div class="about">
+    <a id="bio"></a>
+    <p>Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator
+		I believe in creating a story,an experience,and awesome solutions to help people perceive the world.</p>
+  </div>
 
-  <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island-1-2">
-    <div class="padding2">
-  <img class="me-img-1" src="images/design/headshot_1.jpg"></a>
-</div>
-</div>
-
-<div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 island-1-2">
-        <div class="padding2">
-        <h4>About Me</h4>
-        <hr>
-  <p>Hola, I'm Iza Valle (pronounced like eza,but way better), an Ottawa based Graphic Designer and Illustrator
-		I believe in creating a story,an experience,and awesome solutions to help people perceive the world.
-	</p>
-
-</div>
-				</div>
-
-
-
-<div class="work">
-  <h2 id="work">WORK</h2>
-
-    <a href="harrypotter.html"><img src="images/design/ISOMETRIC_ILLUSTRATION.jpg" alt="Harry Potter poster"></a>
-    <a href="bekkers.html"><img src="images/design/painting.jpg" alt="Logo of cat and dog"></a>
-    <a href="fromm.html"><img src="images/design/summercarnival.jpg" alt="Bag of dog food"></a>
-    <a href="vegan.html"><img src="images/design/type.jpg" alt="Newsletter on veganism"></a>
-    <a href="barkpark.html"><img src="images/design/businesscards.jpg" alt="App mockup on iPhone"></a>
-    <a href="infographic.html"><img src="images/design/MapleValley.jpg" alt="infographic"></a>
-
-
-</div>
-
-<br>
-
-<div class="contact">
-  <h2 id="contact">CONTACT</h2>
-
-
-<div class="media-icons">
-    <a href="https://www.linkedin.com/in/fernie-v-1b3770bb/"><img class="linked" src="images/design/linkedin.svg"/></a>
-    <a href="mailto:vallei@algonquincollege.com"><img class="mail" src="images/design/email.svg"></a>
-</div>
-
-
+  <div id="grid">
+    <div id="gallery">
+      <ul id="navigation">
+        <a id="work"></a>
+          <div id="unit s-1 m-1-2 l-1-3 xl-1-4">
+            <a href="harrypotter.html"><img src="img/hpotter.png" alt="Harry Potter poster"></a>
+            <a href="bekkers.html"><img src="img/logo.png" alt="Logo of cat and dog"></a>
+            <a href="fromm.html"><img src="img/frommbag.png" alt="Bag of dog food"></a>
+            <a href="vegan.html"><img src="img/vegan.png" alt="Newsletter on veganism"></a>
+            <a href="barkpark.html"><img src="img/barkparkphone.png" alt="App mockup on iPhone"></a>
+            <a href="infographic.html"><img src="img/info.png" alt="infographic"></a>
+            <a href="doll.html"><img src="img/doll.png" alt="Doll packaging logo"></a>
+            <a href="evergreen.html"><img class="img-flex" src="img/eglogo.png" alt="App logo" width="300" height="400"></a>
+          </div>
+      </ul>
+    </div>
+  </div>
 </main>
 
-
-<div class="topbutton">
-
-</div>
-
 <footer>
-<p class="footer-text">Iza Valle Design 2018</p>
+  <div class="contact">
+    <a id="contact"></a>
+    <a href="https://www.linkedin.com/in/fernie-v-1b3770bb/"><img class="linked" src="images/design/linkedin.svg"/></a>
+   <a href="mailto:vallei@algonquincollege.com"><img class="mail" src="images/design/email.svg"></a>
+      <div class="top">
+        <a href="#nav" id="top">TOP</a>
+      </div>
+  </div>
 </footer>
 
+
+</body>
 </html>
