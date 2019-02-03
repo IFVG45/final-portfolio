@@ -3,7 +3,7 @@ html{
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #b0d2d7;
+  background-color: #FFB000;
 }
 
 *,*::before, *::after{
@@ -20,7 +20,7 @@ body{
 }
 
 main{
-  background-color: #b0d2d7;
+  background-color: #FFB000;
   padding-bottom: 3em;
   padding-top: 3em;
 }
@@ -127,7 +127,7 @@ a:hover{
 
 footer{
   padding: 1em 2em;
-  background-color: #b0d2d7;
+  background-color: #FFB000;
   text-align: center;
 }
 
