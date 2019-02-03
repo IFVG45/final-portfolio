@@ -9,7 +9,7 @@ html{
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: #FFB000;
+  background-color: #010D1E;
 }
 
 *,*::before, *::after{
@@ -26,7 +26,7 @@ body{
 }
 
 main{
-  background-color: #FFB000;
+  background-color: #010D1E;
   padding-bottom: 3em;
   padding-top: 3em;
 }
